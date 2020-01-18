@@ -64,8 +64,6 @@ def runner
   welcome
   result = 0
   until result > 21
-    puts result
-    puts "@@@@@@@@@@@"
     result =hit?(initial_round)
     display_card_total(result)
   end
