@@ -64,6 +64,7 @@ end
 
 def runner(num)
   # code runner here
+  puts num
   welcome
   initial_round
   until hit? > 21 do
