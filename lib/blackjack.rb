@@ -67,6 +67,7 @@ def runner
   puts "!!!!!!!!!!!"
   until hit?(x) > 21
     puts x
+    puts "@@@@@@@@@@@"
     display_card_total(x)
   end
   return end_game(x)
