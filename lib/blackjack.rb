@@ -64,7 +64,7 @@ def runner
   welcome
   x =initial_round
   until hit?(x) > 21 do
-    display_card_total()
+    display_card_total(x)
   end
   return end_game
 end
