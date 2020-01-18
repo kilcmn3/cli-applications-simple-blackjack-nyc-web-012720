@@ -64,7 +64,7 @@ def runner
   welcome
   x =initial_round
   puts x
-  until hit?(x) > 21 do
+  until hit?(x) > 21
     puts x
     display_card_total(x)
   end
