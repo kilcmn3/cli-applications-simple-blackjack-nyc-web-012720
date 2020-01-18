@@ -68,5 +68,5 @@ def runner
     puts x
     display_card_total(x)
   end
-  return end_game
+  return end_game(x)
 end
