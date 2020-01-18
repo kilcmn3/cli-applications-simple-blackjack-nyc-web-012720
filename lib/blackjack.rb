@@ -62,8 +62,6 @@ end
 def runner
   # code runner here
   welcome
-  puts
-  puts "!!!!!!!!!!!"
   result = 0
   until result > 21
     puts result
