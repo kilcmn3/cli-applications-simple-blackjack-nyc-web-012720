@@ -62,12 +62,12 @@ end
 def runner
   # code runner here
   welcome
-  result =hit?(initial_round)
   puts x
   puts "!!!!!!!!!!!"
   until x > 21
     puts x
     puts "@@@@@@@@@@@"
+    result =hit?(initial_round)
     display_card_total(x)
   end
   return end_game(x)
