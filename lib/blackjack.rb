@@ -39,7 +39,7 @@ end
 def hit?(num)
   # code hit? here
   prompt_user
-  x= get_user_input
+  get_user_input
   if x == "s"
     puts num
     return   num
