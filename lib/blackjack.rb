@@ -62,8 +62,9 @@ end
 def runner
   # code runner here
   welcome
-  puts x
+  puts
   puts "!!!!!!!!!!!"
+  result = nil
   hit?(initial_round)
   until x > 21
     puts x
