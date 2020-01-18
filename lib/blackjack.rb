@@ -65,7 +65,6 @@ def runner
   puts
   puts "!!!!!!!!!!!"
   result = 0
-  hit?(initial_round)
   until result > 21
     puts result
     puts "@@@@@@@@@@@"
