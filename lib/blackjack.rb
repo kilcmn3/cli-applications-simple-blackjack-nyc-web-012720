@@ -65,7 +65,7 @@ def runner
   x =initial_round
   puts x
   puts "!!!!!!!!!!!"
-  until hit?(x) > 21
+  until x > 21
     puts x
     puts "@@@@@@@@@@@"
     display_card_total(x)
