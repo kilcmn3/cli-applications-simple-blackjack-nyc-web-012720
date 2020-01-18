@@ -62,7 +62,7 @@ end
 def runner
   # code runner here
   welcome
-  x =initial_round
+  result =hit?(initial_round)
   puts x
   puts "!!!!!!!!!!!"
   until x > 21
