@@ -64,6 +64,7 @@ def runner
   welcome
   puts x
   puts "!!!!!!!!!!!"
+  hit?(initial_round)
   until x > 21
     puts x
     puts "@@@@@@@@@@@"
