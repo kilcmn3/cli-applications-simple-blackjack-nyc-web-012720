@@ -62,10 +62,8 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(num)
+def runner
   # code runner here
-  puts num
-  puts "!!!!!!!!!!!!!!!"
   welcome
   initial_round
   until hit? > 21 do
