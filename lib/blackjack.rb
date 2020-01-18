@@ -69,5 +69,5 @@ def runner
   until hit? > 21 do
     display_card_total
   end
-  return end_game(answer)
+  return end_game
 end
