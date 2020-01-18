@@ -63,6 +63,7 @@ def runner
   # code runner here
   welcome
   x =initial_round
+  puts x
   until hit?(x) > 21 do
     display_card_total(x)
   end
