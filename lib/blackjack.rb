@@ -65,6 +65,7 @@ def runner
   x =initial_round
   puts x
   until hit?(x) > 21 do
+    puts x
     display_card_total(x)
   end
   return end_game
