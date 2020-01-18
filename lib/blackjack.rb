@@ -64,13 +64,13 @@ def runner
   welcome
   puts
   puts "!!!!!!!!!!!"
-  result = nil
+  result = 0
   hit?(initial_round)
-  until x > 21
-    puts x
+  until result > 21
+    puts result
     puts "@@@@@@@@@@@"
     result =hit?(initial_round)
-    display_card_total(x)
+    display_card_total(result)
   end
-  return end_game(x)
+  return end_game(result)
 end
